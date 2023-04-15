@@ -13,6 +13,7 @@ class tShirt extends getReadyWrapper{
     @Override
     public void putOn() {
         super.putOn();
+        System.out.println("T-Shirt");
     }
 }
 
@@ -26,7 +27,7 @@ class jacket extends getReadyWrapper{
     @Override
     public void putOn() {
         this.wrapee.putOn();
-        System.out.println("RainCoat");
+        System.out.println("Jacket");
     }
 }
 
