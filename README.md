@@ -14,7 +14,10 @@ Here I am trying to illustrate the programming design patters with example
 - Adapter
 - Bridge
 - Composite
+- Decorator
+- Facade
 - Flyweight
+- Proxy
 
 ## Behavioral Design Patterns
 

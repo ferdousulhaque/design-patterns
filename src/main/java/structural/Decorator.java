@@ -10,8 +10,9 @@ class getReadyWrapper implements Clothing{
 }
 
 class tShirt extends getReadyWrapper{
+    @Override
     public void putOn() {
-        System.out.println("T-Shirt");
+        super.putOn();
     }
 }
 
@@ -21,9 +22,11 @@ class jacket extends getReadyWrapper{
     jacket(Clothing wrapee){
         this.wrapee = wrapee;
     }
+
+    @Override
     public void putOn() {
         this.wrapee.putOn();
-        System.out.println("Jacket");
+        System.out.println("RainCoat");
     }
 }
 
@@ -33,6 +36,8 @@ class rainCoat extends getReadyWrapper{
     rainCoat(Clothing wrapee){
         this.wrapee = wrapee;
     }
+
+    @Override
     public void putOn() {
         this.wrapee.putOn();
         System.out.println("RainCoat");
