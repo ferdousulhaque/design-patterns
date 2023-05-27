@@ -53,7 +53,7 @@ class Chain2 implements Handlers{
     }
 }
 
-public class ChainOfCommand {
+public class ChainOfResponsibility {
     public static void main(String[] args) {
         // Prepare the Chain of Command
         Chain1 chain1 = new Chain1();
